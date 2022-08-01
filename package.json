@@ -15,7 +15,7 @@
       "name": "fan",
       "title": "fan",
       "subtitle": "add event",
-      "description": "",
+      "description": "add a new fantastical event using the apple script",
       "mode": "view"
     }
   ],
