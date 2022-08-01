@@ -16,11 +16,12 @@
       "title": "fan",
       "subtitle": "add event",
       "description": "add a new fantastical event using the apple script",
-      "mode": "view"
+      "mode": "no-view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.38.2"
+    "@raycast/api": "^1.38.2",
+    "run-applescript": "^6.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
