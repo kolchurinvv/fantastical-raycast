@@ -1,4 +1,4 @@
-# Fantastical
+# Fantastical in Raycast
 
 This extension utilizes Fantastical natural language processing to add events and reminders from Raycast
 
