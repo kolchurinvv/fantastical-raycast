@@ -16,7 +16,17 @@
       "title": "fan",
       "subtitle": "add event",
       "description": "add a new fantastical event using the apple script",
-      "mode": "no-view"
+      "mode": "no-view",
+      "arguments": [
+        {
+          "type": "text",
+          "name": "add",
+          "title": "Add Event",
+          "placeholder": "add event",
+          "required": true
+        }
+
+      ]
     }
   ],
   "dependencies": {
