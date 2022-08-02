@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "fantastical-events",
-  "title": "Add Fantastical Events",
+  "title": "Fantastical",
   "description": "Create Fantastical events and reminders using Fantasticals natural language processing.",
   "icon": "fantastical.png",
   "author": "devahschaefers",
