@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "fantastical",
-  "title": "Fantastical",
-  "description": "Fantastical support in Raycast",
+  "name": "fantastical-events",
+  "title": "Add Fantastical Events",
+  "description": "Create Fantastical events and reminders using Fantasticals natural language processing.",
   "icon": "fantastical.png",
   "author": "devahschaefers",
   "categories": [
@@ -15,9 +15,8 @@
   ],
   "commands": [
     {
-      "name": "fan",
-      "title": "fan",
-      "subtitle": "add event",
+      "name": "fan-add-event",
+      "title": "Add Fantastical Calendar Event",
       "description": "add a new fantastical event",
       "mode": "no-view",
       "arguments": [
@@ -25,7 +24,7 @@
           "type": "text",
           "name": "add",
           "title": "Add Event",
-          "placeholder": "add event",
+          "placeholder": "event",
           "required": true
         }
       ],
@@ -33,12 +32,13 @@
         "fantastical",
         "fan",
         "add",
-        "event"
+        "event",
+        "fan add event"
       ]
     },
     {
       "name": "fan-reminder",
-      "title": "add reminder",
+      "title": "Add Fantastical Reminder",
       "description": "Add a new Fantastical reminder",
       "mode": "no-view",
       "arguments": [
@@ -46,10 +46,18 @@
           "type": "text",
           "name": "add",
           "title": "Add Reminder",
-          "placeholder": "add reminder",
+          "placeholder": "reminder",
           "required": true
         }
+      ],
+      "keywords": [
+        "fantastical",
+        "fan",
+        "add",
+        "reminder",
+        "fan add reminder"
       ]
+      
     }
   ],
   "dependencies": {
