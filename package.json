@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "fantastical-events",
+  "name": "fantastical",
   "title": "Fantastical",
   "description": "Create Fantastical events and reminders using Fantasticals natural language processing.",
   "icon": "fantastical.png",
@@ -11,7 +11,10 @@
   ],
   "license": "MIT",
   "keywords": [
-    "fantastical"
+    "fantastical",
+    "fan",
+    "reminder",
+    "event"
   ],
   "commands": [
     {
@@ -33,7 +36,8 @@
         "fan",
         "add",
         "event",
-        "fan add event"
+        "fan add event",
+        "fan event"
       ]
     },
     {
@@ -55,7 +59,8 @@
         "fan",
         "add",
         "reminder",
-        "fan add reminder"
+        "fan add reminder",
+        "fan reminder"
       ]
       
     }
