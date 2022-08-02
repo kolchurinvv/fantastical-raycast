@@ -1,3 +1,4 @@
+import { showToast, Toast } from '@raycast/api';
 import {runAppleScript} from 'run-applescript';
 import { isInstalled } from './isInstalled';
 interface Arguments {
@@ -13,6 +14,10 @@ export default async (props: { arguments: Arguments }) => {
         end tell`
         );
     } else {
-        console.log('Fantastical is not installed');
+        await showToast({
+            title: "Fantastical is not installed",
+            style: Toast.Style.Failure,
+            message: 'Please first install Fantastical to use this extension.'
+        });
     }
 };
