@@ -7,7 +7,7 @@ interface Arguments {
 
 export default async (props: { arguments: Arguments }) => {
   const args = props.arguments;
-  if (!(await isInstalled())) {
+  if (await isInstalled()) {
     await runAppleScript(`
         tell application "Fantastical" 
             \n parse sentence "${args.add}" \n
