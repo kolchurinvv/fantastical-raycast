@@ -18,7 +18,7 @@
       "name": "fan",
       "title": "fan",
       "subtitle": "add event",
-      "description": "add a new fantastical event using the apple script",
+      "description": "add a new fantastical event",
       "mode": "no-view",
       "arguments": [
         {
@@ -28,7 +28,6 @@
           "placeholder": "add event",
           "required": true
         }
-
       ],
       "keywords": [
         "fantastical",
@@ -40,7 +39,7 @@
     {
       "name": "fan-reminder",
       "title": "add reminder",
-      "description": "add a new fantastical reminder using the apple script",
+      "description": "Add a new Fantastical reminder",
       "mode": "no-view",
       "arguments": [
         {
@@ -50,7 +49,6 @@
           "placeholder": "add reminder",
           "required": true
         }
-
       ]
     }
   ],
@@ -63,7 +61,7 @@
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.4.3"
   },
   "scripts": {
