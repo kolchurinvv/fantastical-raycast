@@ -10,6 +10,9 @@
     "Productivity"
   ],
   "license": "MIT",
+  "keywords": [
+    "fantastical"
+  ],
   "commands": [
     {
       "name": "fan",
@@ -23,6 +26,28 @@
           "name": "add",
           "title": "Add Event",
           "placeholder": "add event",
+          "required": true
+        }
+
+      ],
+      "keywords": [
+        "fantastical",
+        "fan",
+        "add",
+        "event"
+      ]
+    },
+    {
+      "name": "fan-reminder",
+      "title": "add reminder",
+      "description": "add a new fantastical reminder using the apple script",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "type": "text",
+          "name": "add",
+          "title": "Add Reminder",
+          "placeholder": "add reminder",
           "required": true
         }
 
