@@ -8,7 +8,7 @@ interface Arguments {
 
 export default async (props: { arguments: Arguments }) => {
   const args = props.arguments;
-  const name = getName();
+  const name = await getName();
   if (name !== undefined) {
     const text = `tell application "${name}" 
                         \n parse sentence "Todo ${args.add}" 
