@@ -1,15 +1,16 @@
 import { Action, ActionPanel, showToast, Toast } from "@raycast/api";
 import { runAppleScript } from "run-applescript";
-import { isInstalled } from "./isInstalled";
+import { getName } from "./getName";
 interface Arguments {
   add: string;
 }
 
 export default async (props: { arguments: Arguments }) => {
   const args = props.arguments;
-  if (await isInstalled()) {
+  const name = getName();
+  if (name !== undefined ) {
     await runAppleScript(`
-        tell application "Fantastical" 
+        tell application "${name}" 
             \n parse sentence "${args.add}" \n
         end tell`);
   } else {
