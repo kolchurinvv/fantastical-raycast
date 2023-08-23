@@ -18,6 +18,13 @@ export default async (props: { arguments: Arguments }) => {
       title: "Fantastical is not installed",
       style: Toast.Style.Failure,
       message: "Please first install Fantastical to use this extension.",
+      primaryAction: {
+            title: "Install Fantastical",
+            onAction: () => {
+              open("https://fantastical.app/");
+            },
+          },
+
     });
   }
 };
