@@ -15,7 +15,6 @@ export default async (props: { arguments: Arguments }) => {
   const args = props.arguments;
   const name = await getName();
   const defaultBrowser = await defaultBrowserId();
-  console.log(name);
   if (name !== undefined) {
     await runAppleScript(`
         tell application "${name}" 
